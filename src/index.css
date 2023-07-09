@@ -1,0 +1,75 @@
+/* général */
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 800px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 800px;
+}
+
+
+/* recherche */
+label {
+  font-size: 20px;
+  margin-right: 15px;
+}
+input {
+  width: 738px;
+  padding: 5px 0;
+}
+p.nombre-postes {
+  margin-top: 10px;
+}
+
+/* poste */
+.post {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+}
+.post h4 {
+  margin: 0;
+}
+.post p {
+  padding-left: 10px;
+}
+.post .infos {
+  background-color: rgba(130, 130, 130, 0.1); 
+  border-top: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+/* commentaires */
+.button {
+  color: rgb(44, 53, 218);
+  text-decoration: underline;
+}
+.button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+div.comment {
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+div.comment p.author {
+  background-color: rgba(176,224,230,0.2); 
+  border-top: 1px solid lightgray;
+  padding-bottom: 10px;
+  margin: 10px;
+}
